@@ -1,6 +1,19 @@
 # Ping
 
+
 API Java com Spring Boot para uso genérico adequada para criação de imagens de implementação CI/CD
+
+## App Web + Docker + Deploy
+
+### Azure
+
+- Criar um Grupo de Recursos
+	- rs-pf1524
+- Acessar App Service
+	- Criar Web App
+		- pf1524-ping
+	- Configurar Deployment
+		- Acessar Central de Implantação
 
 
 ## Spring Boot
