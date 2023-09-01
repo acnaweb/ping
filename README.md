@@ -54,12 +54,14 @@ Dependencies:
 
 ```
 mvn clean package
+
 ```
 
 #### Run
 
 ```
 mvn spring-boot:run
+./mvnw spring-boot:run
 ```
 
 ----
