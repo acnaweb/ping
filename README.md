@@ -14,7 +14,14 @@ API Java com Spring Boot para uso genérico adequada para criação de imagens d
 		- pf1524-ping
 	- Configurar Deployment
 		- Acessar Central de Implantação
+- Portas
+	- Dockerfile - configurar EXPOSE 8080
+	- application.yaml - configurar 
 
+```
+		server:
+		  port: 8080
+``` 
 
 ## Spring Boot
 
