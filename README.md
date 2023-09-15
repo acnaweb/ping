@@ -64,6 +64,8 @@ mvn spring-boot:run
 ./mvnw spring-boot:run
 ```
 
+java -jar .\target\app.war --spring.profiles.active=stg
+
 ----
 ## API 
 
@@ -93,6 +95,7 @@ docker image ls
 
 ```
 docker run -d -p 8080:8080 ping
+docker run -d -e PROFILE=stg -p 8082:8082 ping
 ```
 
 #### Listando Containers em execução

@@ -4,3 +4,5 @@ server:
 springdoc:
   swagger-ui:
     use-root-path: true
+
+mensagem: "Dev"    
