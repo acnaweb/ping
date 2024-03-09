@@ -30,8 +30,10 @@ docker build -t ping .
 
 * Executar container
 
+spring.profiles.active=dev
+
 ```
-docker run  -p 8080:8080 ping
+docker run -d -p 8080:8080 -e PROFILE=<prd|dev|stg> ping
 ```
 
 #### Navegação

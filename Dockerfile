@@ -8,7 +8,9 @@ WORKDIR /opt/ping
 
 RUN mvn clean package
 
+ENV PROFILE=dev
+
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "target/app.jar"]
+ENTRYPOINT ["java", "-Dspring.profiles.active=${PROFILE}", "-jar", "target/app.jar"]
 
