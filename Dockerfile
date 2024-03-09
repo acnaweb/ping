@@ -8,5 +8,7 @@ WORKDIR /opt/ping
 
 RUN mvn clean package
 
+EXPOSE 8080
+
 ENTRYPOINT ["java", "-jar", "target/ping-0.0.1-SNAPSHOT.jar"]
 
