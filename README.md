@@ -36,16 +36,23 @@ docker run  -p 8080:8080 ping
 
 #### Navegação
 
+- Base
+
 http://localhost:8080
+
+- Endpoint que retorna string "Pong"
+
+http://localhost:8080/ping 
 
 
 ## Features (Funcionalidades)
+
+- Múltiplos profiles
 
 ## Contatos
 
 - Desenvolvedor 1 - desenvolvedor1@email.com
 - Desenvolvedor 2 - desenvolvedor2@email.com
-
 
 ## Referencias
 
