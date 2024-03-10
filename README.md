@@ -22,7 +22,7 @@ git clone https://github.com/acnaweb/ping.git
 
 #### Docker
 
-* Criação de imagem
+* Criar imagem
 
 ```
 docker build -t ping .
@@ -35,6 +35,42 @@ spring.profiles.active=dev
 ```
 docker run -d -p 8080:8080 -e PROFILE=<prd|dev|stg> ping
 ```
+
+## Container Registry
+
+
+#### Docker Hub
+
+* Login
+
+```
+docker login -u <username>
+```
+
+* Criar imagem pronta para upload (método 1 - criando nova imagem)
+
+
+```
+docker build -t <username>ping .
+```
+
+
+* Criar imagem pronta para upload (método 2 - renomeando imagem existente)
+
+
+```
+docker tag ping acnaweb/ping
+```
+
+
+* Upload de imagem para o Docker Hub
+
+
+```
+docker acnaweb/ping push
+```
+
+
 
 #### Navegação
 
