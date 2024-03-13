@@ -51,7 +51,7 @@ docker login -u <username>
 
 
 ```
-docker build -t <username>ping .
+docker build -t <username>/ping .
 ```
 
 
