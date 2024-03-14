@@ -67,7 +67,7 @@ docker tag ping acnaweb/ping
 
 
 ```
-docker acnaweb/ping push
+docker push acnaweb/ping 
 ```
 
 
